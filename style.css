@@ -1,0 +1,75 @@
+*, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(96, 160, 190);
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+figcaption{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background: rgb(130, 83, 218);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 0;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+figure{
+    margin: 1rem;
+}
+
+img{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#zebra-img, #leao-img, #elefante-img, #jacare-img{
+    width: 250px;
+    height: 230px;
+    background: no-repeat center;
+    background-size:contain;
+    background-color: rgb(189, 178, 235);
+}
+
+#zebra-img{
+    background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/10/equus-zebra.jpg);
+}
+
+#leao-img{
+    background-image: url(https://cdn.britannica.com/31/150931-004-34B9D2CE.jpg?w=575&h=450);
+}
+
+#elefante-img{
+    background-image: url(https://i0.statig.com.br/bancodeimagens/6s/07/5u/6s075u4jc2ge6zmoturqm97ra.jpg);
+}
+
+#jacare-img{
+    background-image: url(https://static.biologianet.com/2020/05/jacare-do-papo-amarelo.jpg);
+}
+
+
+@media screen and (max-width: 563px){
+    #leao-img, #zebra-img, #elefante-img, #jacare-img{
+        width: 500px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 400px){
+    #leao-img, #zebra-img, #elefante-img, #jacare-img{
+        width: 390px;
+        height: 390px;
+    }
+}
