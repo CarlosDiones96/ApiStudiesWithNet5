@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: rgb(96, 160, 190);
+    background: lightgrey;
 }
 
 .container{
@@ -26,7 +26,6 @@ figcaption{
     text-align: center;
 }
 
-
 figure{
     margin: 1rem;
 }
@@ -36,7 +35,8 @@ img{
     border-bottom-right-radius: 5px;
 }
 
-#zebra-img, #leao-img, #elefante-img, #jacare-img{
+#zebra-img, #leao-img, #elefante-img, #jacare-img,
+#macaco-img, #arara-img, #girafa-img, #tigre-img{
     width: 250px;
     height: 230px;
     background: no-repeat center;
@@ -59,17 +59,66 @@ img{
 #jacare-img{
     background-image: url(https://static.biologianet.com/2020/05/jacare-do-papo-amarelo.jpg);
 }
+#arara-img{
+    background-image: url(https://static.escolakids.uol.com.br/conteudo_legenda/a-arara-azul-uma-ave-familia-dos-psitacideos-5c8a3e0c53ef2.jpg);
+}
 
+#tigre-img{
+    background-image: url(https://vivariomarrecife.com.br/wp-content/uploads/2022/01/ano-do-tigre.jpg);
+}
 
-@media screen and (max-width: 563px){
-    #leao-img, #zebra-img, #elefante-img, #jacare-img{
+#macaco-img{
+    background-image: url(https://s2.glbimg.com/u9GU74_73W_S1FFMwh5rIIV3sk0=/e.glbimg.com/og/ed/f/original/2019/03/27/macaco-rhesus.jpg);
+}
+
+#girafa-img{
+    background-image: url(https://mega.ibxk.com.br/2014/10/31/31154830884249.jpg?ims=610x);
+}
+
+.menu{
+    display: flex;
+    background: red;
+    justify-content: space-around;
+
+}
+
+.shake-btn, .fade-btn, .show-btn{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: rgb(129, 129, 126);
+    width: 33.33%;
+    border: 1px solid rgb(69, 68, 71);
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 580px){
+    #leao-img, #zebra-img, #elefante-img, #jacare-img,
+    #macaco-img, #tigre-img, #arara-img, #girafa-img{
         width: 500px;
         height: 500px;
     }
+
+    .menu{
+        flex-flow: column nowrap;
+    }
+    
+    .shake-btn, .show-btn, .fade-btn{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 400px){
-    #leao-img, #zebra-img, #elefante-img, #jacare-img{
-        width: 390px;
-        height: 390px;
+    #leao-img, #zebra-img, #elefante-img, #jacare-img,
+    #macaco-img, #girafa-img, #arara-img, #tigre-img{
+        width: 350px;
+        height: 350px;
+    }
+
+    .menu{
+        flex-flow: column nowrap;
+    }
+
+    .shake-btn, .show-btn, .fade-btn{
+        width: 100%;
     }
 }
