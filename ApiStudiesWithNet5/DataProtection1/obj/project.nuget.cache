@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "dr2zm1d05/YgCOVQig1DTvhhS8fWGBpPY81Fd0rXGicurxVIO5P/Ur6Ze33y/HhuW8mYtjonKb7ZQf16Jfpt1A==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Empty\\ApiStudiesWithNet5\\DataProtection1\\DataProtection1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.1\\microsoft.aspnetcore.cryptography.internal.7.0.1.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\7.0.1\\microsoft.aspnetcore.dataprotection.7.0.1.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\7.0.1\\microsoft.aspnetcore.dataprotection.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.formats.asn1\\7.0.0\\system.formats.asn1.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.security.cryptography.pkcs\\7.0.0\\system.security.cryptography.pkcs.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.security.cryptography.xml\\7.0.0\\system.security.cryptography.xml.7.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\dione\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
